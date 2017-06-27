@@ -10,9 +10,11 @@ using Microsoft.Exchange.WebServices.Autodiscover;
 /// <summary>
 /// This sample uses a service account to search through a list of mailboxes for a particular folder under the Mailbox root. When the folder is found, it will search through all messages for a specific MAPI property.
 /// If the message does not contain the MAPI property, it will stamp it on the message. If the message already contains the MAPI property, it will just move on to the next message.
+/// NOTE: This is just a code sample is not ready for production.
+/// 
 /// To confirm the property has been stamped, use MFCMapi. https://mfcmapi.codeplex.com/
 /// The EWS Managed API 2.2 must be installed first and the EWS dll must be referenced in this project. --> https://www.microsoft.com/en-us/download/details.aspx?id=42951
-/// The service account / impersonation accoutn must have been assigned impersonation priviledges ---> https://msdn.microsoft.com/en-us/library/office/dn722377(v=exchg.150).aspx
+/// The service account / impersonation account must have been assigned impersonation priviledges ---> https://msdn.microsoft.com/en-us/library/office/dn722377(v=exchg.150).aspx
 ///
 /// </summary>
 
